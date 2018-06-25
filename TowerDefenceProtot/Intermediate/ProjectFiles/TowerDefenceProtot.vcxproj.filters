@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TowerDefenceProtot.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4CCB8DDE-A621-4301-8659-432AC66F855F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TowerDefenceProtot.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TowerDefencePrototEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{07B61320-08F3-4CFA-B48B-0007877A28D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TowerDefenceProtot">
+      <UniqueIdentifier>{F00EA97F-1BEA-4BE3-B70C-9DA7FCFC9E4B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TowerDefenceProtot\TowerDefenceProtot.Build.cs">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TowerDefenceProtot\TowerDefenceProtot.cpp">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefenceProtot\TowerDefenceProtot.h">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TowerDefenceProtot\TowerDefencePrototGameModeBase.cpp">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefenceProtot\TowerDefencePrototGameModeBase.h">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\TowerDefenceProtot\AIColor.h">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TowerDefenceProtot\Ai_Move.h">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\TowerDefenceProtot\AIColor.cpp">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TowerDefenceProtot\Ai_Move.cpp">
+      <Filter>Source\TowerDefenceProtot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
